@@ -3,8 +3,7 @@ namespace Dronature.API.DTOs
 {
     public class UserForLoginDto
     {
-        public UserForLoginDto()
-        {
-        }
+        public string Username { get; set; }
+        public string  Password { get; set; }
     }
 }
